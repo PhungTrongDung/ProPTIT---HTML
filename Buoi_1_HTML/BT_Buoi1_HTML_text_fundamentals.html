@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Form đăng ký</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+
+        <h1>Form đăng ký</h1>
+
+        <form>
+            <table>
+                <tr>
+                    <td><label for="usename">Username: </label></td>
+                    <td><input type="text" placeholder="Usename" id="usename" name="Username"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="password">Password: </label></td>
+                    <td><input type="password" placeholder="" name="Password" id="password"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="date">Ngày sinh: </label></td>
+                    <td><input type="date" name="Ngày sinh" id="date"></td>
+                </tr>
+
+                <tr>
+                    <table>
+                        <tr>
+                            <td><label for="Gender">Giới tính: </label></td>
+
+                            <td><input type="radio" name="Gender" id="Male" value="Male"><label for="Male">Male</label></td>
+                    
+                            <td><input type="radio" name="Gender" id="Female" value="Female"><label for="Female">Female</label></td>
+
+                            <td><input type="radio" name="Gender" id="Other" value="Other"><label for="Other">Other</label></td>
+                        </tr>
+                    </table>
+                </tr>
+
+                <tr>
+                    Sở thích: <br>
+                    <input type="checkbox" name="hobbies" id="hobbies1">
+                    <label for="hobbies1">Sở thích 1 </label> <br>
+
+                    <input type="checkbox" name="hobbies" id="hobbies2">
+                    <label for="hobbies2">Sở thích 2 </label> <br>
+
+                    <input type="checkbox" name="hobbies" id="hobbies3">
+                    <label for="hobbies3">Sở thích 1 </label> <br>
+
+                    <input type="checkbox" name="hobbies" id="hobbies4">
+                    <label for="hobbies4">Sở thích 1 </label> <br>
+
+                    <input type="checkbox" name="hobbies" id="hobbies5">
+                    <label for="hobbies5">Sở thích 1 </label> <br>
+                </tr>
+
+                <br>
+
+                <tr>
+                    <td><label for="local">Quê Quán: </label></td>
+                    <td>
+                        <select name="city" id="city">
+                            <option value="">---Chọn quê quán---</option>
+                            <option value="">An Giang</option>
+                            <option value="">Bà Rịa – Vũng Tàu</option>
+                            <option value="">Bắc Giang</option>
+                            <option value="">Bắc Kạn</option>
+                            <option value="">Bạc Liêu</option>
+                            <option value="">Bắc Ninh</option>
+                            <option value="">Bến Tre</option>
+                            <option value="">Bình Định</option>
+                            <option value="">Bình Dương</option>
+                            <option value="">Bình Phước</option>
+                            <option value="">Bình Thuận</option>
+                            <option value="">Cà Mau</option>
+                            <option value="">Cần Thơ</option>
+                            <option value="">Cao Bằng</option>
+                            <option value="">Đà Nẵng</option>
+                            <option value="">Đắk Lắk</option>
+                            <option value="">Đắk Nông</option>
+                            <option value="">Điện Biên</option>
+                            <option value="">Đồng Nai</option>
+                            <option value="">Đồng Tháp</option>
+                            <option value="">Gia Lai</option>
+                            <option value="">Hà Giang</option>
+                            <option value="">Hà Nam</option>
+                            <option value="">Hà Nội</option>
+                            <option value="">Hà Tĩnh</option>
+                            <option value="">Hải Dương</option>
+                            <option value="">Hải Phòng</option>
+                            <option value="">Hậu Giang</option>
+                            <option value="">Hòa Bình</option>
+                            <option value="">Hưng Yên</option>
+                            <option value="">Khánh Hòa</option>
+                            <option value="">Kiên Giang</option>
+                            <option value="">Kon Tum</option>
+                            <option value="">Lai Châu</option>
+                            <option value="">Lâm Đồng</option>
+                            <option value="">Lạng Sơn</option>
+                            <option value="">Lào Cai</option>
+                            <option value="">Long An</option>
+                            <option value="">Nam Định</option>
+                            <option value="">Nghệ An</option>
+                            <option value="">Ninh Bình</option>
+                            <option value="">Ninh Thuận</option>
+                            <option value="">Phú Thọ</option>
+                            <option value="">Phú Yên</option>
+                            <option value="">Quảng Bình</option>
+                            <option value="">Quảng Nam</option>
+                            <option value="">Quảng Ngãi</option>
+                            <option value="">Quảng Ninh</option>
+                            <option value="">Quảng Trị</option>
+                            <option value="">Sóc Trăng</option>
+                            <option value="">Sơn La</option>
+                            <option value="">Tây Ninh</option>
+                            <option value="">Thái Bình</option>
+                            <option value="">Thái Nguyên</option>
+                            <option value="">Thanh Hóa</option>
+                            <option value="">Thừa Thiên Huế</option>
+                            <option value="">Tiền Giang</option>
+                            <option value="">TP Hồ Chí Minh</option>
+                            <option value="">Trà Vinh</option>
+                            <option value="">Tuyên Quang</option>
+                            <option value="">Vĩnh Long</option>
+                            <option value="">Vĩnh Phúc</option>
+                            <option value="">Yên Bái</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <br><br>
+
+                <tr>
+                    <td><label for="">Ảnh bất kì: </label></td>
+                    <td><input type="file" name="" id=""></td>
+                </tr>
+
+                <br><br>
+
+                <tr>
+                    <input type="button" value="Submit">
+                </tr>
+
+                <br><br>
+
+                <tr>
+                    <a href="http://127.0.0.1:5500/C++/VS_Code/Proptit_HTML/BT_Buoi1_HTML_text_fundamentals2.html" target="_blank">Xem thông tin</a>
+                </tr>
+
+            </table> 
+        </form>
+    </body>
+</html>

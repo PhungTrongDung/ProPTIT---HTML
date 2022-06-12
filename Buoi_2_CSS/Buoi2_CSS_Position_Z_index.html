@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>CSS - Position</title>
+    <meta charset="utf-8">
+</head>
+
+<!-- <body>
+    <style>
+        .demo {
+            margin-left: 40px;
+            margin-top: 40px;
+        }
+
+        .grey,
+        .blue,
+        .gold {
+            text-align: center;
+            width: 100px;
+            height: 100px;
+            color: black;
+            position: relative;
+        }
+
+        .grey {
+            background: grey;
+            z-index: 3;
+        }
+
+        .blue {
+            margin-top: -40px;
+            margin-left: 60px;
+            background: blue;
+            z-index: 2;
+        }
+
+        .gold {
+            margin-top: -40px;
+            margin-left: 120px;
+            background: gold;
+            z-index: 1;
+        }
+    </style>
+
+    <div class="demo">
+        <div class="grey"><span>Grey Box</span></div>
+        <div class="blue"><span>Blue Box</span></div>
+        <div class="gold"><span>Gold Box</span></div>
+    </div>
+</body> -->
+
+<body>
+        <style>
+            .box-parent{
+                background-color: #b2bec3;
+                padding: 20px;
+                color: black;
+                /* Ví dụ về position absolute */
+                /* position: relative; */
+            }
+
+            .box1{
+                text-align: center;
+                background-color: #ff7675;
+
+                /* Ví dụ về position relative */
+                position: relative;
+                top: 0px;
+                left: 0px;
+            }
+
+            .box2{
+                text-align: center;
+                background-color: #e84393;
+                /* Ví dụ về position absolute */
+                /* position: absolute; */
+                top: 20px;
+                left: 50px;
+            }
+
+            .box3{
+                height: 70px;
+                width: 100px;
+                text-align: center;
+                background-color: #0984e3;
+                /* Ví dụ về position sticky */
+                position: sticky;
+                right: 10px;
+                top: 0px;
+                
+            }
+
+            .box4{
+                height: 70px;
+                width: 100px;
+                text-align: center;
+                background-color: #55efc4;
+                /* Ví dụ về position fixed */
+                position: fixed;
+                /* bottom: 10px; */
+                top: 0px;
+                right: 20px;
+            }
+
+        </style>
+        <h1>CSS Position</h1>
+        <div class="box-parent">
+            <div class="box box1">Box 1</div>
+            <br>
+            <div class="box box2">Box 2</div>
+            <br>
+            <div class="box box3">Box 3</div>
+            <br>
+            <div class="box box4">Box 4</div>
+
+
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+            <p>Phùng Trọng Dũng _ B20DCCN141</p>
+
+
+
+        </div>
+
+         <!-- position fixed  -->
+        <!-- <p>Phùng Trọng Dũng _ B20DCCN141</p>
+        <p>Phùng Trọng Dũng _ B20DCCN141</p>
+        <p>Phùng Trọng Dũng _ B20DCCN141</p>
+        <p>Phùng Trọng Dũng _ B20DCCN141</p>
+        <p>Phùng Trọng Dũng _ B20DCCN141</p>
+        <p>Phùng Trọng Dũng _ B20DCCN141</p>
+        <p>Phùng Trọng Dũng _ B20DCCN141</p>
+        <p>Phùng Trọng Dũng _ B20DCCN141</p>
+        <p>Phùng Trọng Dũng _ B20DCCN141</p>
+        <p>Phùng Trọng Dũng _ B20DCCN141</p>
+        <p>Phùng Trọng Dũng _ B20DCCN141</p>
+        <p>Phùng Trọng Dũng _ B20DCCN141</p>
+        <p>Phùng Trọng Dũng _ B20DCCN141</p>
+        <p>Phùng Trọng Dũng _ B20DCCN141</p>
+        <p>Phùng Trọng Dũng _ B20DCCN141</p>
+        <p>Phùng Trọng Dũng _ B20DCCN141</p>
+        <p>Phùng Trọng Dũng _ B20DCCN141</p>
+        <p>Phùng Trọng Dũng _ B20DCCN141</p>
+        <p>Phùng Trọng Dũng _ B20DCCN141</p>
+        <p>Phùng Trọng Dũng _ B20DCCN141</p> -->
+    </body>
+
+</html>
